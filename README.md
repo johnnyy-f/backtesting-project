@@ -43,7 +43,7 @@ Simply running this notebook as is will create a backtest strategy for NATGAS_US
 
 The notebook was conducted mainly to play around with the BackTrader library understanding its ease of use and to see whether using a simple RSI strategy could be profitable. With this being said, further studies need to conducted looking at numerous different time frames and investigating combining with other strategies such as Bollinger Bandsl.
 
-For now I'll park this project as I focus on projects that will help propel my Data Science career being currently unemployed.
+For now I'll park this project as I focus on projects that will help propel my Data Science career.
 
 To do:
 - Drawdown Calcs
