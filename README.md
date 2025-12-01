@@ -35,7 +35,7 @@ These can be obtained through creating a free demo account with Oanda.
 
 ### Running the Backtest
 
-Execute the note book:
+Execute the notebook:
 
 RSI_TRADING_STRATEGY_ANALYSIS.ipynb 
 
