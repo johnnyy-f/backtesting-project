@@ -1,0 +1,35 @@
+# .pre-commit-config.yaml
+repos:
+# --- 1. Python Files (.py) Formatting (black, isort, flake8) ---
+- repo: https://github.com/psf/black
+  rev: 24.3.0
+  hooks:
+    - id: black
+      # Changed: Removed the starting anchor (^) for broader matching.
+      files: src/.*\.py$
+
+- repo: https://github.com/PyCQA/isort
+  rev: 5.12.0
+  hooks:
+    - id: isort
+      files: src/.*\.py$
+
+- repo: https://github.com/PyCQA/flake8
+  rev: 7.0.0
+  hooks:
+    - id: flake8
+      files: src/.*\.py$
+
+# --- 2. Jupyter Notebooks (.ipynb) Formatting & Linting (via nbqa) ---
+- repo: https://github.com/nbqa-dev/nbqa
+  rev: 1.7.0
+  hooks:
+    # Targets ALL files ending in .ipynb
+    - id: nbqa-black
+      files: \.ipynb$
+    
+    - id: nbqa-isort
+      files: \.ipynb$
+
+    - id: nbqa-flake8
+      files: \.ipynb$
