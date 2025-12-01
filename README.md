@@ -6,7 +6,7 @@ The following project was conducted in order to test the BackTrader library. Pri
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/johnnyy-f/backtesting-project.git](https://github.com/your-username/backtesting-project.git)
+    git clone https://github.com/johnnyy-f/backtesting-project.git
     cd backtesting-project
     ```
 2.  **Create a Virtual Environment**
