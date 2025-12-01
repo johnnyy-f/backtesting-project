@@ -2,7 +2,7 @@
 
 The following project was conducted in order to test the BackTrader library. Prior to this, previous algo trading strategies were tested using quick backtest which investigated the profit/loss following a signal. Having recently come across the BackTrader backtesting library, I was interested in implementing the framework to test ease of use and accuracy. This project implements a backtesting framework for analysing the performance of a simple multi-order RSI-based mean reversion trading strategy. Selling at overbought levels (70) and buying at oversold (30).
 
-## ⚙️ Installation
+## Installation
 
 1.  **Clone the Repository**
     ```bash
@@ -19,7 +19,7 @@ The following project was conducted in order to test the BackTrader library. Pri
     pip install -r requirements.txt
     ```
 
-## 🔑 Configuration
+## Configuration
 
 This project requires environment variables for API keys from OANDA to access instrument data.
 
@@ -31,7 +31,7 @@ OANDA_API_KEY='INSERT API KEY HERE'
 
 These can be obtained through creating a free demo account with Oanda.
 
-## 🚀 Results and analysis
+## Results and analysis
 
 ### Running the Backtest
 
