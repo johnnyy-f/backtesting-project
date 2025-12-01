@@ -1,6 +1,6 @@
 # Backtesting Project: RSI Trading Strategy
 
-The following project was conducted in order to test BackTrader library. Prior to this previous algo trading strategies would wrk ona rough backtest investigating profitt/loss from singals using historical data. Having recently come across the BackTrader backtesting library, I was interested in implementing using the framework to test ease of use and accuracy. This project implements a backtesting framework for analysing the performance of a simple multi-order RSI-based mean reversion trading strategy. Selling at overbought levels (70) and buying at oversold (30)
+The following project was conducted in order to test the BackTrader library. Prior to this, previous algo trading strategies were tested using quick backtest which investigated the profit/loss following a signal. Having recently come across the BackTrader backtesting library, I was interested in implementing the framework to test ease of use and accuracy. This project implements a backtesting framework for analysing the performance of a simple multi-order RSI-based mean reversion trading strategy. Selling at overbought levels (70) and buying at oversold (30).
 
 ## ⚙️ Installation
 
